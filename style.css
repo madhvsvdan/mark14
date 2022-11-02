@@ -25,14 +25,21 @@ body {
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 50vw;
+  width: 80%;
   padding: 3rem;
+}
+
+.container > h1 {
+  font-size: 1.75rem;
 }
 
 form {
   display: flex;
   flex-direction: column;
   margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 input {
@@ -61,3 +68,34 @@ button {
 .loss {
   color: red;
 }
+
+/* Footer Start */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links li a {
+  color: var(--dark);
+  padding: 1rem;
+  display: block;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Footer End */
